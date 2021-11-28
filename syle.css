@@ -21,3 +21,10 @@
   color: #df8338;
   transform: scale(1, 1.2);
 }
+
+#intro {
+  margin-top: 60px;
+}
+#des {
+  padding-top: 100px;
+}
