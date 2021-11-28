@@ -75,6 +75,169 @@
         <div class="col-4"><img src="./images/pic-6.jpg" alt="" /></div>
       </div>
     </div>
+    <div class="row p-5">
+      <form class="pizza-form col border m-3">
+        <div>
+          <lavel>Pizza Type</lavel>
+          <input name="type" type="text" value="DELUXE" readonly />
+        </div>
+        <div>
+          <lavel>Flavour</lavel>
+          <select name="flavour">
+            <option value="peperroni">peperroni</option>
+            <option value="peri peri">peri peri</option>
+            <option value="beef steak">beef steak</option>
+          </select>
+        </div>
+
+        <div>
+          <lavel>Size</lavel>
+          <select name="size">
+            <option value="small">small - ksh 500</option>
+            <option value="medium">medium - ksh 900</option>
+            <option value="large">large - ksh 1200</option>
+          </select>
+        </div>
+        <div>
+          <lavel>QTY</lavel>
+          <input name="qty" type="number" value="1" min="0" />
+        </div>
+        <div>
+          <label>Onion</label>
+          <input name="toppings" type="checkbox" value="onion" />
+          <label>Cheese</label>
+          <input name="toppings" type="checkbox" value="cheese" />
+        </div>
+        <input type="submit" value="Add to cart" />
+      </form>
+      <form class="pizza-form col border m-3">
+        <div>
+          <lavel>Pizza Type</lavel>
+          <input name="type" type="text" value="classic" readonly />
+        </div>
+        <div>
+          <lavel>Flavour</lavel>
+          <select name="flavour">
+            <option value="peperroni">peperroni</option>
+            <option value="peri peri">peri peri</option>
+            <option value="beef steak">beef steak</option>
+          </select>
+        </div>
+
+        <div>
+          <lavel>Size</lavel>
+          <select name="size">
+            <option value="small">small - ksh 500</option>
+            <option value="medium">medium - ksh 900</option>
+            <option value="large">large - ksh 1200</option>
+          </select>
+        </div>
+        <div>
+          <lavel>QTY</lavel>
+          <input name="qty" type="number" value="1" />
+        </div>
+        <div>
+          <label>Onion</label>
+          <input name="toppings" type="checkbox" value="onion" />
+          <label>Cheese</label>
+          <input name="toppings" type="checkbox" value="cheese" />
+        </div>
+        <input type="submit" value="Add to cart" />
+      </form>
+      <form class="pizza-form col border m-3">
+        <div>
+          <lavel>Pizza Type</lavel>
+          <input name="type" type="text" value="kids" readonly />
+        </div>
+        <div>
+          <lavel>Flavour</lavel>
+          <select name="flavour">
+            <option value="peperroni">peperroni</option>
+            <option value="peri peri">peri peri</option>
+            <option value="beef steak">beef steak</option>
+          </select>
+        </div>
+
+        <div>
+          <lavel>Size</lavel>
+          <select name="size">
+            <option value="small">small - ksh 500</option>
+            <option value="medium">medium - ksh 900</option>
+            <option value="large">large - ksh 1200</option>
+          </select>
+        </div>
+        <div>
+          <lavel>QTY</lavel>
+          <input name="qty" type="number" value="1" />
+        </div>
+        <div>
+          <label>Onion</label>
+          <input name="toppings" type="checkbox" value="onion" />
+          <label>Cheese</label>
+          <input name="toppings" type="checkbox" value="cheese" />
+        </div>
+        <input type="submit" value="Add to cart" />
+      </form>
+      <form class="pizza-form col border m-3">
+        <div>
+          <lavel>Pizza Type</lavel>
+          <input name="type" type="text" value="halal" readonly />
+        </div>
+        <div>
+          <lavel>Flavour</lavel>
+          <select name="flavour">
+            <option value="peperroni">peperroni</option>
+            <option value="peri peri">peri peri</option>
+            <option value="beef steak">beef steak</option>
+          </select>
+        </div>
+
+        <div>
+          <lavel>Size</lavel>
+          <select name="size">
+            <option value="small">small - ksh 500</option>
+            <option value="medium">medium - ksh 900</option>
+            <option value="large">large - ksh 1200</option>
+          </select>
+        </div>
+        <div>
+          <lavel>QTY</lavel>
+          <input name="qty" type="number" value="1" />
+        </div>
+        <div>
+          <label>Onion</label>
+          <input name="toppings" type="checkbox" value="onion" />
+          <label>Cheese</label>
+          <input name="toppings" type="checkbox" value="cheese" />
+        </div>
+        <input type="submit" value="Add to cart" />
+      </form>
+    </div>
+    <table class="table table-sm table-stripped" id="tbl">
+      <thead>
+        <tr>
+          <th>TYPE</th>
+          <th>FLAVOUR</th>
+          <th>SIZE</th>
+          <th>QTY</th>
+          <th>TOPPINGS</th>
+          <th>PRICE</th>
+          <th>Remove</th>
+        </tr>
+      </thead>
+      <tbody id="order-summary"></tbody>
+      <tfoot>
+        <tr class="text-end">
+          <td>Total</td>
+          <td colspan="4" id="total-price" class="text-end">KSH 0.00</td>
+        </tr>
+        <tr>
+          <td colspan="5">
+            <button type="submit" id="checkout">CHECKOUT</button>
+          </td>
+        </tr>
+      </tfoot>
+    </table>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
       integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
@@ -85,6 +248,7 @@
       integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
       crossorigin="anonymous"
     ></script>
-    <script src="app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="app.js" async defer></script>
   </body>
 </html>
