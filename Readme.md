@@ -14,7 +14,7 @@ Pizza Project is a website that let users choose which type of pizza they like t
 - easy-to-understand
 - format
 
-## Live link
+## Live link https://github.com/Hussein-omar-osman/pizza-project.git
 
 ## No Known Bugs
 
