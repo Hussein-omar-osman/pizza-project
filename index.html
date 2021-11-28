@@ -100,7 +100,7 @@
           </select>
         </div>
         <div>
-          <lavel>QTY</lavel>
+          <label>QTY</label>
           <input name="qty" type="number" value="1" min="0" />
         </div>
         <div>
@@ -109,7 +109,7 @@
           <label>Cheese</label>
           <input name="toppings" type="checkbox" value="cheese" />
         </div>
-        <input type="submit" value="Add to cart" />
+        <button class="buy" type="submit" value="Add to cart">Buy</button>
       </form>
       <form class="pizza-form col border m-3">
         <div>
@@ -143,7 +143,7 @@
           <label>Cheese</label>
           <input name="toppings" type="checkbox" value="cheese" />
         </div>
-        <input type="submit" value="Add to cart" />
+        <button class="buy" type="submit" value="Add to cart">Buy</button>
       </form>
     </div>
     <table class="table table-sm table-stripped" id="tbl">
@@ -166,7 +166,9 @@
         </tr>
         <tr>
           <td colspan="5">
-            <button type="submit" id="checkout">CHECKOUT</button>
+            <button class="checkout" type="submit" id="checkout">
+              CHECKOUT
+            </button>
           </td>
         </tr>
       </tfoot>

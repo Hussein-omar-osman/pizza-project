@@ -88,11 +88,37 @@
   padding: 3px;
   border-radius: 8px;
   border: 1px solid #df8338;
-  margin-left: 30px;
 }
 #order select {
   padding: 3px;
   border-radius: 8px;
   border: 1px solid #df8338;
-  margin-left: 40px;
+}
+
+.buy {
+  padding: 5px 15px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 50px;
+  transition: all 0.2s ease-in-out;
+}
+
+.buy:hover {
+  background-color: #df8338;
+  color: white;
+  border: 1px solid #df8338;
+}
+
+.checkout {
+  padding: 5px 15px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 700px;
+  transition: all 0.2s ease-in-out;
+}
+
+.checkout:hover {
+  background-color: #df8338;
+  color: white;
+  border: 1px solid #df8338;
 }
