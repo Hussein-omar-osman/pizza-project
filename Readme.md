@@ -8,7 +8,7 @@ Pizza Project is a website that let users choose which type of pizza they like t
 
 ## Setup/Installation Requirements
 
-- Clone the repo {git clone https://github.com/jonnygovish/cookie-recipe.git}
+- Clone the repo {git clone https://github.com/Hussein-omar-osman/pizza-project.git}
 - to list setup instructions
 - in a simple
 - easy-to-understand
@@ -20,10 +20,10 @@ Pizza Project is a website that let users choose which type of pizza they like t
 
 ## Technologies Used
 
-*HTML
-*CSS
-*BOOTSTRAP
-*JAVASCRIPT
+- HTML
+- CSS
+- BOOTSTRAP
+- JAVASCRIPT
 
 ### License
 
