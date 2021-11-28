@@ -56,3 +56,13 @@
   font-size: 1rem;
   margin-left: 20px;
 }
+#offer img {
+  width: 350px;
+  height: 300px;
+  border-radius: 25px;
+  gap: 0;
+  margin-top: 40px;
+}
+#offer h2 {
+  text-indent: 500px;
+}
