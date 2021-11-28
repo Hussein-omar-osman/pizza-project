@@ -28,3 +28,7 @@
 #des {
   padding-top: 100px;
 }
+
+#intro #des h1 {
+  color: #df8338;
+}
