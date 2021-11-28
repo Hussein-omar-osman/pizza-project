@@ -33,11 +33,17 @@
   color: #df8338;
   font-size: 3.7rem;
 }
+#intro #des h3 {
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 30px;
+}
 #intro #des .btn {
   border: 1.7px solid #df8338;
   color: #df8338;
   border-radius: 25px;
-  margin-top: 25px;
+  margin-top: 17px;
   margin-left: 20px;
 }
 
@@ -46,7 +52,7 @@
   color: white;
 }
 #intro #des p {
-  margin-top: 30px;
+  margin-top: 22px;
   font-size: 1rem;
   margin-left: 20px;
 }
