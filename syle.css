@@ -96,6 +96,8 @@
 }
 
 .buy {
+  background-color: #ebd2be;
+  border: 1px solid #ebd2be;
   padding: 5px 15px;
   border-radius: 5px;
   margin-top: 10px;
@@ -110,6 +112,8 @@
 }
 
 .checkout {
+  background-color: #ebd2be;
+  border: 1px solid #ebd2be;
   padding: 5px 15px;
   border-radius: 5px;
   margin-top: 10px;
