@@ -48,7 +48,7 @@ $("#checkout").on("click", () => {
     prompt("enter your phone number");
     prompt("enter your location");
     alert(
-      "Your pizza will be delivered to you within 40mins. Your delivery charge is sh.250. Thank you trusting us."
+      "Delivery time will be 30 mins and delivery fee is Ksh100. Thank you."
     );
   }
 });
