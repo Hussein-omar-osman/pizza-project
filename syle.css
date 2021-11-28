@@ -134,3 +134,15 @@
   border-radius: 20px;
   font-size: 17px;
 }
+.btn-remove {
+  background-color: #ebd2be;
+  border: 1px solid #ebd2be;
+  padding: 4px 10px;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+}
+.btn-remove:hover {
+  background-color: #df8338;
+  color: white;
+  border: 1px solid #df8338;
+}
