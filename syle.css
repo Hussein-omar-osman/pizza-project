@@ -146,3 +146,10 @@
   color: white;
   border: 1px solid #df8338;
 }
+#intro a {
+  text-decoration: none;
+  color: #df8338;
+}
+#intro a:hover {
+  color: white;
+}
