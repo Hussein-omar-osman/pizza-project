@@ -126,3 +126,11 @@
   color: white;
   border: 1px solid #df8338;
 }
+
+.frm1,
+.frm2 {
+  box-shadow: 5px 10px 10px #888888;
+  padding: 30px;
+  border-radius: 20px;
+  font-size: 17px;
+}

@@ -77,7 +77,7 @@
     </div>
     <div id="order" class="row p-5">
       <h2>Order Here</h2>
-      <form class="pizza-form col border m-3">
+      <form class="pizza-form col border m-3 frm1">
         <div>
           <lavel>Pizza Type</lavel>
           <input name="type" type="text" value="Italian Spicy" readonly />
@@ -94,9 +94,9 @@
         <div>
           <lavel>Size</lavel>
           <select name="size">
-            <option value="small">small - ksh 500</option>
-            <option value="medium">medium - ksh 900</option>
-            <option value="large">large - ksh 1200</option>
+            <option value="small">small</option>
+            <option value="medium">medium</option>
+            <option value="large">large</option>
           </select>
         </div>
         <div>
@@ -111,7 +111,7 @@
         </div>
         <button class="buy" type="submit" value="Add to cart">Buy</button>
       </form>
-      <form class="pizza-form col border m-3">
+      <form class="pizza-form col border m-3 frm2">
         <div>
           <lavel>Pizza Type</lavel>
           <input name="type" type="text" value="Italian Non-Spicy" readonly />
@@ -128,9 +128,9 @@
         <div>
           <lavel>Size</lavel>
           <select name="size">
-            <option value="small">small - ksh 500</option>
-            <option value="medium">medium - ksh 900</option>
-            <option value="large">large - ksh 1200</option>
+            <option value="small">small</option>
+            <option value="medium">medium</option>
+            <option value="large">large</option>
           </select>
         </div>
         <div>
@@ -146,33 +146,35 @@
         <button class="buy" type="submit" value="Add to cart">Buy</button>
       </form>
     </div>
-    <table class="table table-sm table-stripped" id="tbl">
-      <thead>
-        <tr>
-          <th>TYPE</th>
-          <th>FLAVOUR</th>
-          <th>SIZE</th>
-          <th>QTY</th>
-          <th>TOPPINGS</th>
-          <th>PRICE</th>
-          <th>Remove</th>
-        </tr>
-      </thead>
-      <tbody id="order-summary"></tbody>
-      <tfoot>
-        <tr class="text-end">
-          <td>Total</td>
-          <td colspan="4" id="total-price" class="text-end">KSH 0.00</td>
-        </tr>
-        <tr>
-          <td colspan="5">
-            <button class="checkout" type="submit" id="checkout">
-              CHECKOUT
-            </button>
-          </td>
-        </tr>
-      </tfoot>
-    </table>
+    <div class="container">
+      <table class="table table-sm table-stripped" id="tbl">
+        <thead>
+          <tr>
+            <th>TYPE</th>
+            <th>FLAVOUR</th>
+            <th>SIZE</th>
+            <th>QTY</th>
+            <th>TOPPINGS</th>
+            <th>PRICE</th>
+            <th>Remove</th>
+          </tr>
+        </thead>
+        <tbody id="order-summary"></tbody>
+        <tfoot>
+          <tr class="text-end">
+            <td>Total</td>
+            <td colspan="4" id="total-price" class="text-end">KSH 0.00</td>
+          </tr>
+          <tr>
+            <td colspan="5">
+              <button class="checkout" type="submit" id="checkout">
+                CHECKOUT
+              </button>
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
       integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
