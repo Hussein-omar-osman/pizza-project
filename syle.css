@@ -31,4 +31,22 @@
 
 #intro #des h1 {
   color: #df8338;
+  font-size: 3.7rem;
+}
+#intro #des .btn {
+  border: 1.7px solid #df8338;
+  color: #df8338;
+  border-radius: 25px;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+#intro #des .btn:hover {
+  background-color: #df8338;
+  color: white;
+}
+#intro #des p {
+  margin-top: 30px;
+  font-size: 1rem;
+  margin-left: 20px;
 }
