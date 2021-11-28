@@ -83,3 +83,16 @@
   text-indent: 500px;
   font-size: 50px;
 }
+
+#order input {
+  padding: 3px;
+  border-radius: 8px;
+  border: 1px solid #df8338;
+  margin-left: 30px;
+}
+#order select {
+  padding: 3px;
+  border-radius: 8px;
+  border: 1px solid #df8338;
+  margin-left: 40px;
+}
