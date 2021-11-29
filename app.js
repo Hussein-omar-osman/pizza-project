@@ -3,9 +3,9 @@ const orderSummary = $("#order-summary");
 const tot = $("#total-price");
 
 const prices = {
-  small: 500,
-  medium: 900,
-  large: 1200,
+  small: 700,
+  medium: 1000,
+  large: 1500,
 };
 let total = 0;
 
@@ -28,7 +28,7 @@ $("form").submit(function (event) {
             <td>${orderLine.flavour}</td>
             <td>${orderLine.size}</td>
             <td>${orderLine.qty}</td>
-            <td>${orderLine.toppings.join()}</td>
+            <td>${orderLine.toppings}</td>
             <td>${orderLine.cost}</td>
             <td><button class='btn-remove'>Remove</button></td>
         </tr>
@@ -42,7 +42,7 @@ $("#tbl").on("click", ".btn-remove", function () {
 
 $("#checkout").on("click", () => {
   if (total === 0) {
-    return alert("Invalid data");
+    return alert("Place an Order");
   } else {
     prompt("enter your email address");
     prompt("enter your phone number");

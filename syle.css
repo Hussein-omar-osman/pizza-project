@@ -159,6 +159,7 @@ table thead tr th {
 table {
   border: 19px solid black;
   box-shadow: 5px 10px 10px #888888;
+  border-radius: 50px;
 }
 
 .height200 {
