@@ -153,3 +153,14 @@
 #intro a:hover {
   color: white;
 }
+table thead tr th {
+  color: #df8338;
+}
+table {
+  border: 19px solid black;
+  box-shadow: 5px 10px 10px #888888;
+}
+
+.height200 {
+  height: 100px;
+}
